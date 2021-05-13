@@ -1,5 +1,5 @@
-//legyen a harcosokklubja csomagban
 package harcosokklubja;
+//legyen a harcosokklubja csomagban
 
 public class Harcos {
 
@@ -15,7 +15,7 @@ public class Harcos {
     public void megut(Harcos kit){
         kit.egeszseg -= this.utoero;
         //írja ki a metódus, hogy a harcos megütötte a másikat, ehhez felhasználva a megírt toString metódust
-        System.out.println("Egy harcos: " + this + "- megütötte a következőt: " + kit);
+        System.out.println("Egy harcos: " + this + " ütést vitt be.");
 
     }
 
